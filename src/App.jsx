@@ -1,13 +1,15 @@
-
+import React from 'react';
+import  { About } from './About.jsx'
+import  { Service } from './Service.jsx'
 import './App.css'
+import { Portfolio } from './Portfolio.jsx';
 
 function App() {
   return (
     <>
-    <title> Benz Resume </title>
-    <h1 className="text-15xl font-bold ">
-      Hello world!
-    </h1>
+    <About />
+    <Service />
+    <Portfolio />
     </>
   )
 }
